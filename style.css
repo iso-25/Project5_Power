@@ -31,9 +31,6 @@ body {
   align-items: center;
 }
 
-.nav__logo {
-}
-
 .nav__logo,
 .btn {
   max-width: 175px;
@@ -53,12 +50,6 @@ body {
   color: #a0a3a7;
   font-size: 14px;
   font-weight: 300;
-}
-
-.nav__a {
-}
-
-.nav__btn {
 }
 
 /* main */
