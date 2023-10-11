@@ -1,6 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
-  padding: 95px;
+  /* padding: 95px;
+  left and right: 95/1600=5.937%
+  top and bottom: 95/1200=8.917% */
+  padding: 5.937% 8.917%;
   background: linear-gradient(125deg, #fc3f5f 0%, #7d61ff 100.32%);
   background-repeat: no-repeat;
   display: flex;
