@@ -134,31 +134,37 @@ body {
   margin-bottom: 129px;
 }
 
+/* Large	Large	lg	≥992px */
+@media screen and (max-width: 992px) {
+  .wrapper {
+    padding: 80px;
+  }
+}
+
+/* Medium	Medium	md	≥768px */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 65px;
+  }
+}
+
+/* Medium	Medium	md	≥768px */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 65px;
+  }
+}
+
+/* Small	Small	sm	≥576px */
+@media screen and (max-width: 577px) {
+  .wrapper {
+    padding: 50px;
+  }
+}
+
 /* X-Small	Нет	<576px */
 @media screen and (max-width: 576px) {
   .wrapper {
     padding: 35px;
   }
 }
-
-/* Small	Small	sm	≥576px */
-@media screen and (min-width: 577px) {
-  .wrapper {
-    padding: 50px;
-  }
-}
-
-/* Medium	Medium	md	≥768px */
-@media screen and (min-width: 768px) {
-  .wrapper {
-    padding: 65px;
-  }
-}
-
-/* Large	Large	lg	≥992px */
-@media screen and (min-width: 992px) {
-  .wrapper {
-    padding: 80px;
-  }
-}
-
