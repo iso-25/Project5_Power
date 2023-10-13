@@ -1,6 +1,7 @@
 html {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 body {
@@ -134,37 +135,65 @@ body {
   margin-bottom: 129px;
 }
 
-/* Large	Large	lg	≥992px */
 @media screen and (max-width: 992px) {
   .wrapper {
-    padding: 80px;
+    padding: 75px;
   }
 }
 
-/* Medium	Medium	md	≥768px */
 @media screen and (max-width: 768px) {
-  .wrapper {
-    padding: 65px;
-  }
-}
-
-/* Medium	Medium	md	≥768px */
-@media screen and (max-width: 768px) {
-  .wrapper {
-    padding: 65px;
-  }
-}
-
-/* Small	Small	sm	≥576px */
-@media screen and (max-width: 577px) {
   .wrapper {
     padding: 50px;
   }
+
+  .nav__ul {
+    gap: 48px;
+  }
+
+  .main__title {
+    font-size: 60px;
+  }
+
+  .main__desc {
+    font-size: 15px;
+  }
+
+  .main__btn {
+    min-width: 200px;
+  }
+
+  .loading {
+    gap: 24px;
+  }
 }
 
-/* X-Small	Нет	<576px */
 @media screen and (max-width: 576px) {
   .wrapper {
-    padding: 35px;
+    padding: 25px;
+  }
+
+  .nav__ul {
+    gap: 32px;
+  }
+
+  .main__title,
+  .main__desc {
+    max-width: 400px;
+  }
+
+  .main__title {
+    font-size: 48px;
+  }
+
+  .main__desc {
+    font-size: 12px;
+  }
+
+  .main__btn {
+    min-width: 160px;
+  }
+
+  .loading {
+    gap: 16px;
   }
 }
