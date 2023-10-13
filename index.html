@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power</title>
     <link rel="icon" type="image/x-icon" href="img/logo16x16.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -20,14 +21,22 @@
                         <img src="img/logo.svg" alt="Power">
                     </a>
                 </div>
-                <ul class="nav__ul">
-                    <li class="nav__li"><a class="nav__a" href="/">Features</a></li>
-                    <li class="nav__li"><a class="nav__a" href="/">Partners</a></li>
-                    <li class="nav__li"><a class="nav__a" href="/">Stories</a></li>
-                </ul>
-
+                <div class="block_ul">
+                    <input id="menuCheckbox" type="checkbox">
+                    <ul class="nav__ul">
+                        <li class="nav__li"><a class="nav__a" href="/">Features</a></li>
+                        <li class="nav__li"><a class="nav__a" href="/">Partners</a></li>
+                        <li class="nav__li"><a class="nav__a" href="/">Stories</a></li>
+                    </ul>
+                    <label for="menuCheckbox" class="menu-berger">
+                        <span class="material-icons icon_menu">menu</span>
+                    </label>
+                </div>
                 <div class="nav__btn">
-                    <a class="btn btn_primary" href="/">Download for free</a>
+                    <a class="btn btn_primary" href="/">
+                        <span class="btn__txt">Download for free</span>
+                        <span class="material-icons">download</span>
+                    </a>
                 </div>
             </nav>
             <main class="main">
